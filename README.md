@@ -1,7 +1,7 @@
 # apple photos random
 
-https://claude.ai/share/fabaa70d-f078-401b-8eff-fefc5d9af99e
-https://discussions.apple.com/thread/254813403?sortBy=rank
+* https://claude.ai/share/fabaa70d-f078-401b-8eff-fefc5d9af99e
+* input https://discussions.apple.com/thread/254813403?sortBy=rank
 
 ```
 -- Fisher-Yates shuffle function
