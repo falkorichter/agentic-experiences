@@ -1,4 +1,57 @@
-One use case
+# apple photos random
+
+https://claude.ai/share/fabaa70d-f078-401b-8eff-fefc5d9af99e
+https://discussions.apple.com/thread/254813403?sortBy=rank
+
+```
+-- Fisher-Yates shuffle function
+on fisherYatesShuffle(inputList)
+	set shuffledList to inputList as list
+	set listLength to count of shuffledList
+	
+	repeat with i from listLength to 2 by -1
+		set randomIndex to (random number from 1 to i)
+		
+		-- Swap items at positions i and randomIndex
+		set tempItem to item i of shuffledList
+		set item i of shuffledList to item randomIndex of shuffledList
+		set item randomIndex of shuffledList to tempItem
+	end repeat
+	
+	return shuffledList
+end fisherYatesShuffle
+
+-- Usage in your photo script:
+on getCurrentSelection()
+	tell application "Photos"
+		set imageSel to {}
+		try
+			set imageSel to (get selection)
+		on error errTexttwo number errNumtwo
+			display dialog ¬
+				"Cannot get the selection: " & errNumtwo ¬
+				& return & errTexttwo
+		end try
+		return imageSel
+	end tell
+end getCurrentSelection
+
+set thephotos to getCurrentSelection()
+set showslide_duration to 2
+
+tell application "Photos"
+	-- Single, proper shuffle instead of 3 imperfect ones
+	display notification "beginning to shuffle" & (count of thephotos)
+	set thephotos to my fisherYatesShuffle(thephotos)
+	display notification "done to shuffle" & (count of thephotos)
+	
+	display notification "Shuffled " & (count of thephotos) & " photos" with title "Photos"
+	
+	start slideshow using thephotos as list
+end tell
+```
+
+# Other use case
 
 | I need a shell script (zsh) which renames all the files in a folder into a random new order when ordered by name. It's for photos and I want to run a random slideshow.
 
