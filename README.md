@@ -1,3 +1,8 @@
+# build your own agent
+* https://github.com/agno-agi/agno?tab=readme-ov-file
+* https://docs.phidata.com/introduction
+* TODO: Add the link to the file and project which Dharshan created.
+
 # apple photos random
 
 * https://claude.ai/share/fabaa70d-f078-401b-8eff-fefc5d9af99e
