@@ -2,7 +2,8 @@
 * https://github.com/agno-agi/agno?tab=readme-ov-file
 * https://docs.phidata.com/introduction
 * https://www.langchain.com/ was also mentioned
-* TODO: Add the link to the file and project which Dharshan created.
+   * https://github.com/HariDarshan2321/simple-agent
+   * https://github.com/HariDarshan2321/leetcode-agent
 
 # apple photos random
 
