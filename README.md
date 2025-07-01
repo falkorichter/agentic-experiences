@@ -1,6 +1,7 @@
 # build your own agent
 * https://github.com/agno-agi/agno?tab=readme-ov-file
 * https://docs.phidata.com/introduction
+* https://www.langchain.com/ was also mentioned
 * TODO: Add the link to the file and project which Dharshan created.
 
 # apple photos random
