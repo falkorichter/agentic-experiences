@@ -6,6 +6,10 @@
    * https://github.com/features/codespaces 🤔 
 
 
+# structural engineer
+* https://claude.ai/share/9dab9fef-8aca-4906-aa59-379bb89b2656 
+* https://grok.com/share/c2hhcmQtMw%3D%3D_038daf6a-8d61-45b6-bed1-97801421e253
+
 # build your own agent
 * https://github.com/agno-agi/agno?tab=readme-ov-file
 * https://docs.phidata.com/introduction
