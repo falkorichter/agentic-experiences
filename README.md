@@ -2,7 +2,8 @@
 * https://github.com/skend/export-tabs-urls/pull/1 has links to two agentic sessions
 * super interesting to see this work in the browser
 * prompt at https://github.com/copilot/share/820d430c-4800-8c23-b141-8048a4c10918
-* there is also this code space https://effective-space-parakeet-9rw9596p279jx.github.dev/ but I don't know how I go there. Its a VS code in the browser with a terminal. 
+* there is also this code space https://effective-space-parakeet-9rw9596p279jx.github.dev/ but I don't know how I go there. Its a VS code in the browser with a terminal.
+   * https://github.com/features/codespaces 🤔 
 
 
 # build your own agent
