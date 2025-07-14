@@ -9,6 +9,7 @@
 * https://www.langchain.com/ was also mentioned
    * https://github.com/HariDarshan2321/simple-agent
    * https://github.com/HariDarshan2321/leetcode-agent
+* there is also this code space https://effective-space-parakeet-9rw9596p279jx.github.dev/ but I don't know how I go there. Its a VS code in the browser with a terminal. 
 
 # apple photos random
 
