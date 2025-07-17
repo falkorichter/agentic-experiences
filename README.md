@@ -1,4 +1,10 @@
 # github copilot web 
+https://github.com/falkorichter/agentic-archive.is-ifier
+
+# kostia
+https://github.com/kprudnikov/kprudnikov.github.io
+
+# github copilot web 
 * https://github.com/skend/export-tabs-urls/pull/1 has links to two agentic sessions
 * super interesting to see this work in the browser
 * prompt at https://github.com/copilot/share/820d430c-4800-8c23-b141-8048a4c10918
