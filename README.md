@@ -5,7 +5,12 @@ https://github.com/falkorichter/agentic-archive.is-ifier
    * pull request https://github.com/falkorichter/agentic-archive.is-ifier/pull/2
    * https://github.com/falkorichter/agentic-archive.is-ifier/pull/2/agent-sessions/63746a6c-0dde-4a6f-a928-87fad3e00952
    * "Now let me test the extension by taking a screenshot using a browser to verify it works correctly. First, let me open the extension in a browser:" [deeplink](https://github.com/falkorichter/agentic-archive.is-ifier/pull/2/agent-sessions/63746a6c-0dde-4a6f-a928-87fad3e00952#:~:text=Now%20let%20me%20test,playwright%2Dmcp%2Dserver%2Dbrowser_navigate)
-* 
+
+```
+Error: page.goto: net::ERR_BLOCKED_BY_CLIENT at file:///home/runner/work/agentic-archive.is-ifier/agentic-archive.is-ifier/test.html Call log:
+
+navigating to "file:///home/runner/work/agentic-archive.is-ifier/agentic-archive.is-ifier/test.html", waiting until "domcontentloaded"
+```
 
 # kostia
 https://github.com/kprudnikov/kprudnikov.github.io
