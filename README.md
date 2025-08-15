@@ -5,6 +5,8 @@ prompt (from log)
 Explain: FATAL EXCEPTION: main Process: com.foxxum.atvdownloader, PID: 21139 java.lang.RuntimeException: Unable to get provider io.sentry.android.core.SentryInitProvider: java.lang.SecurityException: com.foxxum.atvdownloader: One of RECEIVER_EXPORTED or RECEIVER_NOT_EXPORTED should be specified when a receiver isn't being registered exclusively for system broadcasts at android.app.ActivityThread.installProvider(ActivityThread.java:7770) at android.app.ActivityThread.installContentProviders(ActivityThread.java:7276) with tag AndroidRuntime
 ```
 
+TODO: link the 2 attachments here
+
 ---
 # Analysis of Android Runtime Exception: SentryInitProvider and Missing Receiver Export Flag
 
