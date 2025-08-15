@@ -1,7 +1,7 @@
 # purtel crashing for my mother in law
 
 prompt (from log)
-```
+```text
 Explain: FATAL EXCEPTION: main Process: com.foxxum.atvdownloader, PID: 21139 java.lang.RuntimeException: Unable to get provider io.sentry.android.core.SentryInitProvider: java.lang.SecurityException: com.foxxum.atvdownloader: One of RECEIVER_EXPORTED or RECEIVER_NOT_EXPORTED should be specified when a receiver isn't being registered exclusively for system broadcasts at android.app.ActivityThread.installProvider(ActivityThread.java:7770) at android.app.ActivityThread.installContentProviders(ActivityThread.java:7276) with tag AndroidRuntime
 ```
 
@@ -43,15 +43,21 @@ The solution involves identifying the `BroadcastReceiver`(s) missing the `androi
     *   **For receivers intended only for internal app communication or system broadcasts (most common case):**
 ```xml
 <receiver
-android:name=".YourInternalReceiver"
-android:exported="false"> <intent-filter> <!-- Your intent filters --> </intent-filter>
+    android:name=".YourInternalReceiver"
+    android:exported="false">
+    <intent-filter>
+        <!-- Your intent filters -->
+    </intent-filter>
 </receiver>
 ```
-*   **For receivers that *must* receive broadcasts from other apps:**
+    *   **For receivers that *must* receive broadcasts from other apps:**
 ```xml
 <receiver
-android:name=".YourExportedReceiver"
-android:exported="true"> <intent-filter> <!-- Your intent filters, ensure they are specific and secure --> </intent-filter>
+    android:name=".YourExportedReceiver"
+    android:exported="true">
+    <intent-filter>
+        <!-- Your intent filters, ensure they are specific and secure -->
+    </intent-filter>
 </receiver>
 ```
 **Caution:** Only use `android:exported="true"` if absolutely necessary and ensure you properly validate incoming Intents to avoid security vulnerabilities.
@@ -63,21 +69,24 @@ android:exported="true"> <intent-filter> <!-- Your intent filters, ensure they a
     *   **Solutions for library receivers:**
         *   **Update the library:** The best solution is to update the library to a newer version that correctly declares the `android:exported` attribute. This is particularly relevant for Sentry itself. Ensure you are using a recent version of the Sentry Android SDK (e.g., `6.x.x` or newer).
 ```gradle
-// In your app's build.gradle dependencies { implementation 'io.sentry:sentry-android:6.33.1' // Use the latest stable version }
+// In your app's build.gradle
+dependencies {
+    implementation 'io.sentry:sentry-android:6.33.1' // Use the latest stable version
+}
 ```
-*   **Override library's manifest (use with caution):** If updating is not possible and the receiver is not meant to be exported, you can override its declaration in your app's manifest:
+        *   **Override library's manifest (use with caution):** If updating is not possible and the receiver is not meant to be exported, you can override its declaration in your app's manifest:
 ```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-package="com.foxxum.atvdownloader">
-<application ...>
-                <!-- Example: Replace 'com.problematic.library.Receiver' with the actual receiver name -->
-                <receiver
-                    android:name="com.problematic.library.Receiver"
-                    android:exported="false"
-                    tools:replace="android:exported"/>
-                ...
-            </application>
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.foxxum.atvdownloader">
+    <application ...>
+        <!-- Example: Replace 'com.problematic.library.Receiver' with the actual receiver name -->
+        <receiver
+            android:name="com.problematic.library.Receiver"
+            android:exported="false"
+            tools:replace="android:exported"/>
+        ...
+    </application>
 </manifest>
 ```
 4.  **Target SDK Version:**
@@ -102,7 +111,7 @@ https://github.com/falkorichter/agentic-archive.is-ifier
    * https://github.com/falkorichter/agentic-archive.is-ifier/pull/2/agent-sessions/63746a6c-0dde-4a6f-a928-87fad3e00952
    * "Now let me test the extension by taking a screenshot using a browser to verify it works correctly. First, let me open the extension in a browser:" [deeplink](https://github.com/falkorichter/agentic-archive.is-ifier/pull/2/agent-sessions/63746a6c-0dde-4a6f-a928-87fad3e00952#:~:text=Now%20let%20me%20test,playwright%2Dmcp%2Dserver%2Dbrowser_navigate)
 
-```
+```text
 Error: page.goto: net::ERR_BLOCKED_BY_CLIENT at file:///home/runner/work/agentic-archive.is-ifier/agentic-archive.is-ifier/test.html Call log:
 
 navigating to "file:///home/runner/work/agentic-archive.is-ifier/agentic-archive.is-ifier/test.html", waiting until "domcontentloaded"
@@ -135,7 +144,7 @@ https://github.com/kprudnikov/kprudnikov.github.io
 * https://claude.ai/share/fabaa70d-f078-401b-8eff-fefc5d9af99e
 * input https://discussions.apple.com/thread/254813403?sortBy=rank
 
-```
+```applescript
 -- Fisher-Yates shuffle function
 on fisherYatesShuffle(inputList)
 	set shuffledList to inputList as list
@@ -187,7 +196,7 @@ end tell
 
 | I need a shell script (zsh) which renames all the files in a folder into a random new order when ordered by name. It's for photos and I want to run a random slideshow.
 
-```
+```text
 This script will:
 
 Take a directory path as an argument (uses current directory if none provided)
@@ -200,12 +209,11 @@ Use safe renaming via a temporary directory to avoid conflicts
 
 https://claude.ai/public/artifacts/05dcf788-b7b7-400c-a268-830fd4eca495 
 
-```
+```text
 The script preserves file extensions and uses zero-padded numbering (001, 002, 003...) so when your slideshow software sorts by filename, it will display the photos in the randomized order. The zero-padding ensures proper alphabetical sorting regardless of how many files you have.
 ```
 
-
-```
+```text
 there is an error random_rename_script.sh: line 68: %0${#${#actual_files[@]}}d%s: bad substitution
 ```
 
@@ -222,7 +230,7 @@ here is the output
 Edit
 I don't see the output you mentioned - could you paste it so I can see what error or issue you're encountering? That will help me diagnose and fix the problem with the script.
 
-```
+```text
 random_rename_script.sh: line 19: files[@]: #/: syntax error: operand expected (error token is "#/")
 Found 951 files to rename
 Renaming files...
