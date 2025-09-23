@@ -1,4 +1,4 @@
-# security in MCP (done wrong)
+# security in MCP (interesting)
 * https://claude.ai/share/d5385d25-9238-4f20-afd8-1835ddf5e909
 
 
