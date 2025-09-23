@@ -45,7 +45,7 @@ To get started with splitting your cheesecake party expenses, you'll need to log
 
 ## User Message 2
 
-ah right, my email is gerasimenko.ab@gmail.com, password is password123
+ah right, my email is firstname.lastname@gmail.com, password is password123
 
 ## Assistant Response 2
 
@@ -59,7 +59,7 @@ What's your FairSplit email and password so we can get started?
 
 ```javascript
 {
-  `email`: `gerasimenko.ab@gmail.com`,
+  `email`: `firstname.lastname@gmail.com`,
   `password`: `password123`
 }
 ```
@@ -67,11 +67,11 @@ What's your FairSplit email and password so we can get started?
 ```json
 {
   "success": true,
-  "message": "Successfully logged in as Alexey G (gerasimenko.ab@gmail.com)",
+  "message": "Successfully logged in as Alexey G (firstname.lastname@gmail.com)",
   "user": {
     "id": "cmfmjlwxi0000fl01fndhk898",
     "name": "Alexey G",
-    "email": "gerasimenko.ab@gmail.com",
+    "email": "firstname.lastname@gmail.com",
     "avatarUrl": "https://example.com/avatar.jpg",
     "createdAt": "2025-09-16T12:42:16.182Z"
   },
@@ -84,7 +84,7 @@ What's your FairSplit email and password so we can get started?
 **Request:**
 ```json
 {
-  "email": "gerasimenko.ab@gmail.com",
+  "email": "firstname.lastname@gmail.com",
   "password": "password123"
 }
 ```
@@ -93,11 +93,11 @@ What's your FairSplit email and password so we can get started?
 ```json
 {
   "success": true,
-  "message": "Successfully logged in as Alexey G (gerasimenko.ab@gmail.com)",
+  "message": "Successfully logged in as Alexey G (firstname.lastname@gmail.com)",
   "user": {
     "id": "cmfmjlwxi0000fl01fndhk898",
     "name": "Alexey G",
-    "email": "gerasimenko.ab@gmail.com",
+    "email": "firstname.lastname@gmail.com",
     "avatarUrl": "https://example.com/avatar.jpg",
     "createdAt": "2025-09-16T12:42:16.182Z"
   },
@@ -141,7 +141,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -182,7 +182,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -212,7 +212,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -253,7 +253,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -294,7 +294,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -335,7 +335,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -376,7 +376,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -430,7 +430,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -471,7 +471,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -501,7 +501,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -542,7 +542,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -583,7 +583,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -624,7 +624,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -665,7 +665,7 @@ Now let's see what groups you have and set up expense tracking for your cheeseca
         "user": {
           "id": "cmfmjlwxi0000fl01fndhk898",
           "name": "Alexey G",
-          "email": "gerasimenko.ab@gmail.com",
+          "email": "firstname.lastname@gmail.com",
           "avatarUrl": "https://example.com/avatar.jpg"
         }
       },
@@ -736,7 +736,7 @@ A few questions:
       "user": {
         "id": "cmfmjlwxi0000fl01fndhk898",
         "name": "Alexey G",
-        "email": "gerasimenko.ab@gmail.com",
+        "email": "firstname.lastname@gmail.com",
         "avatarUrl": "https://example.com/avatar.jpg"
       }
     },
@@ -794,7 +794,7 @@ A few questions:
       "user": {
         "id": "cmfmjlwxi0000fl01fndhk898",
         "name": "Alexey G",
-        "email": "gerasimenko.ab@gmail.com",
+        "email": "firstname.lastname@gmail.com",
         "avatarUrl": "https://example.com/avatar.jpg"
       }
     },
@@ -858,7 +858,7 @@ Now let's add the expenses from your cheesecake party! Tell me about what you sp
   "payer": {
     "id": "cmfmjlwxi0000fl01fndhk898",
     "name": "Alexey G",
-    "email": "gerasimenko.ab@gmail.com",
+    "email": "firstname.lastname@gmail.com",
     "avatarUrl": "https://example.com/avatar.jpg"
   },
   "group": {
@@ -890,7 +890,7 @@ Now let's add the expenses from your cheesecake party! Tell me about what you sp
   "payer": {
     "id": "cmfmjlwxi0000fl01fndhk898",
     "name": "Alexey G",
-    "email": "gerasimenko.ab@gmail.com",
+    "email": "firstname.lastname@gmail.com",
     "avatarUrl": "https://example.com/avatar.jpg"
   },
   "group": {
@@ -934,7 +934,7 @@ Perfect! Let me add all three expenses to your Cheesecake Party group. I'll reco
   "payer": {
     "id": "cmfmjlwxi0000fl01fndhk898",
     "name": "Alexey G",
-    "email": "gerasimenko.ab@gmail.com",
+    "email": "firstname.lastname@gmail.com",
     "avatarUrl": "https://example.com/avatar.jpg"
   },
   "group": {
@@ -966,7 +966,7 @@ Perfect! Let me add all three expenses to your Cheesecake Party group. I'll reco
   "payer": {
     "id": "cmfmjlwxi0000fl01fndhk898",
     "name": "Alexey G",
-    "email": "gerasimenko.ab@gmail.com",
+    "email": "firstname.lastname@gmail.com",
     "avatarUrl": "https://example.com/avatar.jpg"
   },
   "group": {
@@ -1010,7 +1010,7 @@ Now let me add Kostia's Philadelphia cream cheese purchase:
   "payer": {
     "id": "cmfmjlwxi0000fl01fndhk898",
     "name": "Alexey G",
-    "email": "gerasimenko.ab@gmail.com",
+    "email": "firstname.lastname@gmail.com",
     "avatarUrl": "https://example.com/avatar.jpg"
   },
   "group": {
@@ -1042,7 +1042,7 @@ Now let me add Kostia's Philadelphia cream cheese purchase:
   "payer": {
     "id": "cmfmjlwxi0000fl01fndhk898",
     "name": "Alexey G",
-    "email": "gerasimenko.ab@gmail.com",
+    "email": "firstname.lastname@gmail.com",
     "avatarUrl": "https://example.com/avatar.jpg"
   },
   "group": {
@@ -1152,7 +1152,7 @@ Now let me check the specific balances for your Cheesecake Party group by lookin
     "payer": {
       "id": "cmfmjlwxi0000fl01fndhk898",
       "name": "Alexey G",
-      "email": "gerasimenko.ab@gmail.com",
+      "email": "firstname.lastname@gmail.com",
       "avatarUrl": "https://example.com/avatar.jpg"
     },
     "group": {
@@ -1169,7 +1169,7 @@ Now let me check the specific balances for your Cheesecake Party group by lookin
     "payer": {
       "id": "cmfmjlwxi0000fl01fndhk898",
       "name": "Alexey G",
-      "email": "gerasimenko.ab@gmail.com",
+      "email": "firstname.lastname@gmail.com",
       "avatarUrl": "https://example.com/avatar.jpg"
     },
     "group": {
@@ -1186,7 +1186,7 @@ Now let me check the specific balances for your Cheesecake Party group by lookin
     "payer": {
       "id": "cmfmjlwxi0000fl01fndhk898",
       "name": "Alexey G",
-      "email": "gerasimenko.ab@gmail.com",
+      "email": "firstname.lastname@gmail.com",
       "avatarUrl": "https://example.com/avatar.jpg"
     },
     "group": {
@@ -1374,7 +1374,7 @@ Now let me check the specific balances for your Cheesecake Party group by lookin
     "payer": {
       "id": "cmfmjlwxi0000fl01fndhk898",
       "name": "Alexey G",
-      "email": "gerasimenko.ab@gmail.com",
+      "email": "firstname.lastname@gmail.com",
       "avatarUrl": "https://example.com/avatar.jpg"
     },
     "group": {
@@ -1391,7 +1391,7 @@ Now let me check the specific balances for your Cheesecake Party group by lookin
     "payer": {
       "id": "cmfmjlwxi0000fl01fndhk898",
       "name": "Alexey G",
-      "email": "gerasimenko.ab@gmail.com",
+      "email": "firstname.lastname@gmail.com",
       "avatarUrl": "https://example.com/avatar.jpg"
     },
     "group": {
@@ -1408,7 +1408,7 @@ Now let me check the specific balances for your Cheesecake Party group by lookin
     "payer": {
       "id": "cmfmjlwxi0000fl01fndhk898",
       "name": "Alexey G",
-      "email": "gerasimenko.ab@gmail.com",
+      "email": "firstname.lastname@gmail.com",
       "avatarUrl": "https://example.com/avatar.jpg"
     },
     "group": {
