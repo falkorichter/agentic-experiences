@@ -34,7 +34,7 @@ What's your FairSplit email and password so we can get started?
 whoami
 ```
 
-**Alexey:** ah right, my email is gerasimenko.ab@gmail.com, password is password123
+**Alexey:** ah right, my email is firstname.lastname@gmail.com, password is password123
 
 **Claude:** Perfect! Let me log you in to your FairSplit account so we can start tracking your cheesecake party expenses.
 
@@ -43,7 +43,7 @@ whoami
 login
 Anfrage
 {
-  "email": "gerasimenko.ab@gmail.com",
+  "email": "firstname.lastname@gmail.com",
   "password": "password123"
 }
 
@@ -117,7 +117,7 @@ create_group
     "user": {
       "id": "cmfmjlwxi0000fl01fndhk898",
       "name": "Alexey G",
-      "email": "gerasimenko.ab@gmail.com",
+      "email": "firstname.lastname@gmail.com",
       "avatarUrl": "https://example.com/avatar.jpg"
     }
   }
@@ -152,7 +152,7 @@ create_expense
 {
   "id": "cmfmjlwxi0000fl01fndhk898",
   "name": "Alexey G",
-  "email": "gerasimenko.ab@gmail.com",
+  "email": "firstname.lastname@gmail.com",
   "avatarUrl": "https://example.com/avatar.jpg",
   "group": {
     "id": "cmfwigzg50000dz01o18zzx8s",
