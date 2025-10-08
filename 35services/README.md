@@ -7,4 +7,4 @@ Task: "kannst du dieses bild als Comic neu malen. Es ist eine Werkstatt für Fah
 
 Texts were added manually with Pixelmator by Falko
 
-![](35services/ChatGPT Image 8. Okt. 2025, 11_15_44.png)
+![](ChatGPT Image 8. Okt. 2025, 11_15_44.png)
