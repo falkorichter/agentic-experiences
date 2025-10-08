@@ -6,3 +6,5 @@ Task: "kannst du dieses bild als Comic neu malen. Es ist eine Werkstatt für Fah
 * ChatGPT was spot on https://chatgpt.com/share/68e63068-8dd8-8007-87c4-e809dbb77dfc
 
 Texts were added manually with Pixelmator by Falko
+
+![](35services/ChatGPT Image 8. Okt. 2025, 11_15_44.png)
