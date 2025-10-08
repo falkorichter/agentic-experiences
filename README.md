@@ -1,3 +1,9 @@
+# comic image
+
+[35services/README.md](35services/README.md)
+
+![](35services/ChatGPT_Image_8._Okt._2025,_11_15_44.png)
+
 # berlin school vacation
 
 * https://g.co/gemini/share/6a5c3b1e84d2 resulting in https://github.com/falkorichter/agentic-experiences/blob/main/ferien.ics
