@@ -1,3 +1,11 @@
+# pr based on input from me
+
+https://github.com/schuyler/macdown3000/pull/125
+this closes https://github.com/MacDownApp/macdown/pull/1349
+
+claude instructions https://github.com/MacDownApp/macdown/pull/1354
+
+
 # comic image
 
 [35services/README.md](35services/README.md)
