@@ -1,0 +1,43 @@
+{
+  "venues": [
+    {
+      "name": "Poststadion (Rollschuhbahn)",
+      "team_home": "Spreewölfe Berlin",
+      "address": "Lehrter Str. 59, 10557 Berlin",
+      "notes": "Heimspielstätte der Spreewölfe Berlin"
+    },
+    {
+      "name": "Sporthalle Fredersdorf",
+      "team_home": "Märkische Löwen",
+      "address": "Posentsche Str. 60, 15370 Fredersdorf-Vogelsdorf",
+      "notes": "Sporthalle Fredersdorf Nord"
+    },
+    {
+      "name": "Lilli Henoch Sporthalle",
+      "team_home": "Berlin Buffalos",
+      "address": "Fritz-Lesch-Straße 32, 13053 Berlin",
+      "notes": ""
+    },
+    {
+      "name": "Carl-Schuhmann-Halle",
+      "team_home": "SG Red Devils / Polarstern",
+      "address": "Fritz-Lesch-Straße 35, 13053 Berlin",
+      "notes": ""
+    },
+    {
+      "name": "Lupcom Arena",
+      "team_home": "Rostocker Nasenbären",
+      "address": "Fritz-Triddelfitz-Weg 8, 18069 Rostock",
+      "notes": "Dedicated inline skaterhockey hall"
+    },
+    {
+      "name": "Falkensee (Sporthalle Lise-Meitner-Gymnasium)",
+      "team_home": "Eintracht Falkensee",
+      "address": "Ruppiner Str. 25, 14612 Falkensee",
+      "notes": ""
+    }
+  ],
+  "last_updated": "2026-03-04",
+  "source": "https://www.bishl.de/tournaments/schuelerliga-lk2/2026",
+  "notes": "Venues from BISHL Schülerliga LK2 2026. Run fetch_schedules.py to discover more venues from other tournaments."
+}
