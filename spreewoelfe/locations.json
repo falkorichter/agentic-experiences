@@ -1,0 +1,31 @@
+{
+  "venues": [
+    {
+      "name": "Poststadion (Rollschuhbahn)",
+      "team_home": "Spreewölfe Berlin",
+      "address": "Lehrter Str. 59, 10557 Berlin",
+      "notes": "Heimspielstätte der Spreewölfe Berlin"
+    },
+    {
+      "name": "Wollenberger Straße",
+      "team_home": "Eisbären Juniors",
+      "address": "Wollenberger Str. 1, 13053 Berlin",
+      "notes": ""
+    },
+    {
+      "name": "Fredersdorf-Vogelsdorf",
+      "team_home": "Märkische Löwen",
+      "address": "Posentsche Str. 60, 15370 Fredersdorf-Vogelsdorf",
+      "notes": ""
+    },
+    {
+      "name": "Lilli-Henoch-Halle",
+      "team_home": "Buffalos",
+      "address": "Fritz-Lesch-Straße 32, 13053 Berlin",
+      "notes": ""
+    }
+  ],
+  "last_updated": "2026-03-04",
+  "source": "https://www.spreewoelfe.de/spielplaene/",
+  "notes": "Locations extracted from U13 schedule. Run fetch_schedules.py to discover more venues from other teams."
+}
