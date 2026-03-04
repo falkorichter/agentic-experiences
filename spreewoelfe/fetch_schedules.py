@@ -211,7 +211,7 @@ def generate_ical(events, tournament_info):
             f"DTEND;TZID=Europe/Berlin:{event['dt_end']}",
             f"SUMMARY:{event['summary']}",
             f"LOCATION:{event['location']}",
-            f"DESCRIPTION:{name}\\n{event['home_away']}\\nQuelle: bishl.de",
+            f"DESCRIPTION:{name}\\nQuelle: bishl.de",
             "END:VEVENT",
         ])
 
