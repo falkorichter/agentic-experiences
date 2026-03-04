@@ -24,7 +24,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin, unquote
 
 try:
@@ -207,7 +207,7 @@ def try_parse_table_row(cells, team_slug, team_name):
         "date": date_str,
         "time": time_str,
         "dt_start": dt.strftime("%Y%m%dT%H%M%S"),
-        "dt_end": (dt.replace(hour=dt.hour + 3)).strftime("%Y%m%dT%H%M%S"),
+        "dt_end": (dt + timedelta(hours=3)).strftime("%Y%m%dT%H%M%S"),
         "host": host or "TBD",
         "location": location or "TBD",
         "summary": f"{team_name} Spieltag: {host or 'TBD'}",
@@ -233,7 +233,7 @@ def try_parse_block(element, team_slug, team_name):
         "date": date_str,
         "time": time_str,
         "dt_start": dt.strftime("%Y%m%dT%H%M%S"),
-        "dt_end": (dt.replace(hour=dt.hour + 3)).strftime("%Y%m%dT%H%M%S"),
+        "dt_end": (dt + timedelta(hours=3)).strftime("%Y%m%dT%H%M%S"),
         "host": "TBD",
         "location": "TBD",
         "summary": f"{team_name} Spieltag",
@@ -262,7 +262,7 @@ def try_parse_freeform(content, team_slug, team_name):
             "date": date_str,
             "time": time_str,
             "dt_start": dt.strftime("%Y%m%dT%H%M%S"),
-            "dt_end": (dt.replace(hour=dt.hour + 3)).strftime("%Y%m%dT%H%M%S"),
+            "dt_end": (dt + timedelta(hours=3)).strftime("%Y%m%dT%H%M%S"),
             "host": "TBD",
             "location": "TBD",
             "summary": f"{team_name} Spieltag",
