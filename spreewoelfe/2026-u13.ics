@@ -1,78 +1,224 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Spreewolf U13 Plan//DE
+PRODID:-//Spreewoelfe U13 Schedule//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Spreewölfe U13 2026
+X-WR-CALDESC:Schülerliga LK2 2026 - Spreewölfe Berlin (from bishl.de)
 BEGIN:VEVENT
-UID:u13-20260316@spreewolf.de
-DTSTAMP:20260304T092736Z
-DTSTART;TZID=Europe/Berlin:20260316T100000
-DTEND;TZID=Europe/Berlin:20260316T130000
-SUMMARY:U13 Spieltag: Eisbären Juniors
-LOCATION:Wollenberger Str. 1, 13053 Berlin
-DESCRIPTION:Gastgeber: Eisbären Juniors\nOrt: Wollenberger Straße
+UID:u13-20260315-1200@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260315T120000
+DTEND;TZID=Europe/Berlin:20260315T125000
+SUMMARY:U13: Berlin Buffalos II vs Spreewölfe Berlin
+LOCATION:Sporthalle Fredersdorf\, Posentsche Str. 60\, 15370 Fredersdorf-Vogelsdorf
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
 END:VEVENT
 BEGIN:VEVENT
-UID:u13-20260330@spreewolf.de
-DTSTAMP:20260304T092736Z
-DTSTART;TZID=Europe/Berlin:20260330T100000
-DTEND;TZID=Europe/Berlin:20260330T130000
-SUMMARY:U13 Spieltag: Märkische Löwen
-LOCATION:Posentsche Str. 60, 15370 Fredersdorf-Vogelsdorf
-DESCRIPTION:Gastgeber: Märkische Löwen\nOrt: Fredersdorf-Vogelsdorf
+UID:u13-20260315-1300@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260315T130000
+DTEND;TZID=Europe/Berlin:20260315T135000
+SUMMARY:U13: Märkische Löwen vs Spreewölfe Berlin
+LOCATION:Sporthalle Fredersdorf\, Posentsche Str. 60\, 15370 Fredersdorf-Vogelsdorf
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
 END:VEVENT
 BEGIN:VEVENT
-UID:u13-20260504@spreewolf.de
-DTSTAMP:20260304T092736Z
-DTSTART;TZID=Europe/Berlin:20260504T100000
-DTEND;TZID=Europe/Berlin:20260504T130000
-SUMMARY:U13 Spieltag: Spreewölfe
-LOCATION:Lehrter Str. 59, 10557 Berlin
-DESCRIPTION:Gastgeber: Spreewölfe\nOrt: Poststadion
+UID:u13-20260315-1450@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260315T145000
+DTEND;TZID=Europe/Berlin:20260315T154000
+SUMMARY:U13: Spreewölfe Berlin vs SG Red Devils / Polarstern
+LOCATION:Sporthalle Fredersdorf\, Posentsche Str. 60\, 15370 Fredersdorf-Vogelsdorf
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
 END:VEVENT
 BEGIN:VEVENT
-UID:u13-20260601@spreewolf.de
-DTSTAMP:20260304T092736Z
-DTSTART;TZID=Europe/Berlin:20260601T100000
-DTEND;TZID=Europe/Berlin:20260601T130000
-SUMMARY:U13 Spieltag: Buffalos
-LOCATION:Fritz-Lesch-Straße 32, 13053 Berlin
-DESCRIPTION:Gastgeber: Buffalos\nOrt: Lilli-Henoch-Halle
+UID:u13-20260419-1000@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260419T100000
+DTEND;TZID=Europe/Berlin:20260419T105000
+SUMMARY:U13: Spreewölfe Berlin vs Eintracht Falkensee
+LOCATION:Poststadion\, Lehrter Str. 59\, 10557 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
 END:VEVENT
 BEGIN:VEVENT
-UID:u13-20260706@spreewolf.de
-DTSTAMP:20260304T092736Z
-DTSTART;TZID=Europe/Berlin:20260706T100000
-DTEND;TZID=Europe/Berlin:20260706T130000
-SUMMARY:U13 Spieltag: Spreewölfe
-LOCATION:Lehrter Str. 59, 10557 Berlin
-DESCRIPTION:Gastgeber: Spreewölfe\nOrt: Poststadion
+UID:u13-20260419-1200@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260419T120000
+DTEND;TZID=Europe/Berlin:20260419T125000
+SUMMARY:U13: Spreewölfe Berlin vs Märkische Löwen
+LOCATION:Poststadion\, Lehrter Str. 59\, 10557 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
 END:VEVENT
 BEGIN:VEVENT
-UID:u13-20260720@spreewolf.de
-DTSTAMP:20260304T092736Z
-DTSTART;TZID=Europe/Berlin:20260720T100000
-DTEND;TZID=Europe/Berlin:20260720T130000
-SUMMARY:U13 Spieltag: Märkische Löwen
-LOCATION:Posentsche Str. 60, 15370 Fredersdorf-Vogelsdorf
-DESCRIPTION:Gastgeber: Märkische Löwen\nOrt: Fredersdorf-Vogelsdorf
+UID:u13-20260419-1440@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260419T144000
+DTEND;TZID=Europe/Berlin:20260419T153000
+SUMMARY:U13: Spreewölfe Berlin vs Rostocker Nasenbären II
+LOCATION:Poststadion\, Lehrter Str. 59\, 10557 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
 END:VEVENT
 BEGIN:VEVENT
-UID:u13-20260914@spreewolf.de
-DTSTAMP:20260304T092736Z
-DTSTART;TZID=Europe/Berlin:20260914T100000
-DTEND;TZID=Europe/Berlin:20260914T130000
-SUMMARY:U13 Spieltag: Eisbären Juniors
-LOCATION:Wollenberger Str. 1, 13053 Berlin
-DESCRIPTION:Gastgeber: Eisbären Juniors\nOrt: Wollenberger Straße
+UID:u13-20260510-1000@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260510T100000
+DTEND;TZID=Europe/Berlin:20260510T105000
+SUMMARY:U13: Berlin Buffalos II vs Spreewölfe Berlin
+LOCATION:Lilli Henoch Sporthalle\, Fritz-Lesch-Straße 32\, 13053 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
 END:VEVENT
 BEGIN:VEVENT
-UID:u13-20260928@spreewolf.de
-DTSTAMP:20260304T092736Z
-DTSTART;TZID=Europe/Berlin:20260928T133000
-DTEND;TZID=Europe/Berlin:20260928T163000
-SUMMARY:U13 Spieltag: Buffalos
-LOCATION:Fritz-Lesch-Straße 32, 13053 Berlin
-DESCRIPTION:Gastgeber: Buffalos\nOrt: Lilli-Henoch-Halle
+UID:u13-20260510-1250@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260510T125000
+DTEND;TZID=Europe/Berlin:20260510T134000
+SUMMARY:U13: SG Red Devils / Polarstern vs Spreewölfe Berlin
+LOCATION:Lilli Henoch Sporthalle\, Fritz-Lesch-Straße 32\, 13053 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260510-1350@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260510T135000
+DTEND;TZID=Europe/Berlin:20260510T144000
+SUMMARY:U13: Eintracht Falkensee vs Spreewölfe Berlin
+LOCATION:Lilli Henoch Sporthalle\, Fritz-Lesch-Straße 32\, 13053 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260531-1100@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260531T110000
+DTEND;TZID=Europe/Berlin:20260531T115000
+SUMMARY:U13: Spreewölfe Berlin vs Berlin Buffalos II
+LOCATION:Lupcom Arena\, Fritz-Triddelfitz-Weg 8\, 18069 Rostock
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260531-1250@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260531T125000
+DTEND;TZID=Europe/Berlin:20260531T134000
+SUMMARY:U13: Spreewölfe Berlin vs Märkische Löwen
+LOCATION:Lupcom Arena\, Fritz-Triddelfitz-Weg 8\, 18069 Rostock
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260531-1440@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260531T144000
+DTEND;TZID=Europe/Berlin:20260531T153000
+SUMMARY:U13: Rostocker Nasenbären II vs Spreewölfe Berlin
+LOCATION:Lupcom Arena\, Fritz-Triddelfitz-Weg 8\, 18069 Rostock
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260621-1000@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260621T100000
+DTEND;TZID=Europe/Berlin:20260621T105000
+SUMMARY:U13: Spreewölfe Berlin vs Berlin Buffalos II
+LOCATION:Poststadion\, Lehrter Str. 59\, 10557 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260621-1200@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260621T120000
+DTEND;TZID=Europe/Berlin:20260621T125000
+SUMMARY:U13: Spreewölfe Berlin vs Rostocker Nasenbären II
+LOCATION:Poststadion\, Lehrter Str. 59\, 10557 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260621-1440@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260621T144000
+DTEND;TZID=Europe/Berlin:20260621T153000
+SUMMARY:U13: Spreewölfe Berlin vs Eintracht Falkensee
+LOCATION:Poststadion\, Lehrter Str. 59\, 10557 Berlin
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260830-1100@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260830T110000
+DTEND;TZID=Europe/Berlin:20260830T115000
+SUMMARY:U13: Spreewölfe Berlin vs Rostocker Nasenbären II
+LOCATION:Sporthalle Fredersdorf\, Posentsche Str. 60\, 15370 Fredersdorf-Vogelsdorf
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260830-1250@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260830T125000
+DTEND;TZID=Europe/Berlin:20260830T134000
+SUMMARY:U13: Spreewölfe Berlin vs SG Red Devils / Polarstern
+LOCATION:Sporthalle Fredersdorf\, Posentsche Str. 60\, 15370 Fredersdorf-Vogelsdorf
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260830-1440@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260830T144000
+DTEND;TZID=Europe/Berlin:20260830T153000
+SUMMARY:U13: Märkische Löwen vs Spreewölfe Berlin
+LOCATION:Sporthalle Fredersdorf\, Posentsche Str. 60\, 15370 Fredersdorf-Vogelsdorf
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260927-1100@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260927T110000
+DTEND;TZID=Europe/Berlin:20260927T115000
+SUMMARY:U13: Berlin Buffalos II vs Spreewölfe Berlin
+LOCATION:Lupcom Arena\, Fritz-Triddelfitz-Weg 8\, 18069 Rostock
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260927-1200@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260927T120000
+DTEND;TZID=Europe/Berlin:20260927T125000
+SUMMARY:U13: Rostocker Nasenbären II vs Spreewölfe Berlin
+LOCATION:Lupcom Arena\, Fritz-Triddelfitz-Weg 8\, 18069 Rostock
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20260927-1350@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20260927T135000
+DTEND;TZID=Europe/Berlin:20260927T144000
+SUMMARY:U13: Spreewölfe Berlin vs SG Red Devils / Polarstern
+LOCATION:Lupcom Arena\, Fritz-Triddelfitz-Weg 8\, 18069 Rostock
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20261004-1100@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20261004T110000
+DTEND;TZID=Europe/Berlin:20261004T115000
+SUMMARY:U13: Spreewölfe Berlin vs Märkische Löwen
+LOCATION:Falkensee\, Ruppiner Str. 25\, 14612 Falkensee
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20261004-1250@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20261004T125000
+DTEND;TZID=Europe/Berlin:20261004T134000
+SUMMARY:U13: Spreewölfe Berlin vs SG Red Devils / Polarstern
+LOCATION:Falkensee\, Ruppiner Str. 25\, 14612 Falkensee
+DESCRIPTION:Schülerliga LK2 2026\nHeimspiel\nQuelle: bishl.de
+END:VEVENT
+BEGIN:VEVENT
+UID:u13-20261004-1440@bishl.de
+DTSTAMP:20260304T100000Z
+DTSTART;TZID=Europe/Berlin:20261004T144000
+DTEND;TZID=Europe/Berlin:20261004T153000
+SUMMARY:U13: Eintracht Falkensee vs Spreewölfe Berlin
+LOCATION:Falkensee\, Ruppiner Str. 25\, 14612 Falkensee
+DESCRIPTION:Schülerliga LK2 2026\nAuswärtsspiel\nQuelle: bishl.de
 END:VEVENT
 END:VCALENDAR
