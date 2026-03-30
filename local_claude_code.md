@@ -18,8 +18,9 @@ I used claude code with ollama `glm-4.7-flash`
 
 the project is at [github.com/falkorichter/drum-game](https://github.com/falkorichter/drum-game) at [0b4b6233bd725d8518f6cca81ae928e1982d7a27](https://github.com/falkorichter/drum-game/commit/0b4b6233bd725d8518f6cca81ae928e1982d7a27)
 
-> summarize this project                                                                                                                                                                                                                               
+## First prompt
 
+> summarize this project                                                                                                                                                                                                              
 
 ⏺ Beat Challenge — Drum Game Summary
 
@@ -67,7 +68,9 @@ the project is at [github.com/falkorichter/drum-game](https://github.com/falkori
   - Unit tests included in bracket.test.html and export.test.html
   - Responsive, single-page application
 
+✻ Baked for 16m 55s
 
+## Second prompt
 >  can you summarize it from a software engineering perspective                                                                                                                                                                                         
 
  Beat Challenge — Software Engineering Summary
