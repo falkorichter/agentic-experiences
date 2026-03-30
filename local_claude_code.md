@@ -1,3 +1,33 @@
+# M4 with 16GB RAM
+```
+╭─── Claude Code v2.1.81 ─────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                     │ Tips for getting started                                                              │
+│            Welcome back!            │ Run /init to create a CLAUDE.md file with instructions for Claude                     │
+│                                     │ Note: You have launched claude in your home directory. For the best experience, laun… │
+│              ▗ ▗   ▖ ▖              │ ───────────────────────────────────────────────────────────────────────────────────── │
+│                                     │ Recent activity                                                                       │
+│                ▘▘ ▝▝                │ No recent activity                                                                    │
+│                                     │                                                                                       │
+│   qwen3-vl:4b · API Usage Billing   │                                                                                       │
+│         /Users/falkorichter         │                                                                                       │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+  ↑ Opus now defaults to 1M context · 5x more room, same pricing
+
+❯ write a hello world in javascript                                                                                            
+
+⏺ Write(hello.js)
+  ⎿  Wrote 1 lines to hello.js
+      1 console.log('Hello World!');
+  ⎿  2 skills available
+
+✶ Generating… (49m 38s · ↑ 355 tokens)
+  ⎿  Tip: Use /clear to start fresh when switching topics and free up context
+```
+
+
+# M3 Pro with 36GB RAM:
+
 I used claude code with ollama `glm-4.7-flash`
 
 ```
