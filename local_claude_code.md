@@ -1,4 +1,5 @@
 # M4 with 16GB RAM
+## qwen3-vl:4b - 128k of memory and lot's of apps in parallal
 ```
 ╭─── Claude Code v2.1.81 ─────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │                                     │ Tips for getting started                                                              │
@@ -47,7 +48,11 @@ Launching Claude Code with qwen3-vl:4b...
 ✻ Churned for 55m 24s
 ```
 
-Request timed out  
+Request timed out 
+
+## qwen3-vl:4b - 64k of memory and no apps
+Ollama is using 12.7GB RAM according to Activity Monitor
+
 
 
 # M3 Pro with 36GB RAM:
