@@ -25,6 +25,30 @@
   ⎿  Tip: Use /clear to start fresh when switching topics and free up context
 ```
 
+```
+Launching Claude Code with qwen3-vl:4b...
+╭─── Claude Code v2.1.81 ──────────────────────────────────────────────────────────────────────────────────╮
+│                                      │ Tips for getting started                                          │                
+│             Welcome back!            │ Run /init to create a CLAUDE.md file with instructions for Claude │
+│                                      │ ───────────────────────────────────────────────────────────────── │
+│               ▗ ▗   ▖ ▖              │ Recent activity                                                   │
+│                                      │ No recent activity                                                │
+│                 ▘▘ ▝▝                │                                                                   │               
+│                                      │                                                                   │
+│   qwen3-vl:4b · API Usage Billing    │                                                                   │
+│   ~/Documents/workspaces/drum-game   │                                                                   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+               
+  ↑ Opus now defaults to 1M context · 5x more room, same pricing
+                                
+❯ summarize this project                                                                                                    
+  ⎿  Request timed out  
+                                                                                                                            
+✻ Churned for 55m 24s
+```
+
+Request timed out  
+
 
 # M3 Pro with 36GB RAM:
 
